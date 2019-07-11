@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .2em;
 }
 
 .btn-xl {
@@ -49,32 +50,38 @@ a.down-scroll:hover {
   text-transform: uppercase;
 }
 
-h1,
-h2,
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .1em;
+  font-weight: 200;
+  font-size: 1em;
 }
+
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
+#about {
+  background-color: #2E2D2D;
+  color: white;
 }
 
 .scroll-to-top {
@@ -108,8 +115,8 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 2rem;
-  padding-bottom: 8rem;
+  padding-top: 0rem;
+  padding-bottom: 12rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(43, 10, 10, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/forest.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/forest.jpg");
   background-position: center center;
@@ -143,7 +150,8 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #2E2D2D;
+  opacity: .8;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -227,7 +235,8 @@ h6 {
   height: 7rem;
   width: 7rem;
   display: block;
-  line-height: 7.5rem;
+  padding-left: .15em;
+  line-height: 7.15rem;
   font-size: 2.25rem;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -312,7 +321,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: #2E2D2D;
+    background-color: #445734;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -327,9 +336,10 @@ footer.footer .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #2E2D2D;
+  line-height: 4rem;
+  font-size: 1.9rem;
+  padding-left: .1em;
+  background-color: goldenrod;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -337,17 +347,17 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #2E2D2D;
+  background-color: goldenrod;
   text-decoration: none;
   opacity: .8;
 }
 
 a {
-  color: #1D809F;
+  color: goldenrod;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: goldenrod;
 }
 
 .btn-primary {
