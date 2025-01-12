@@ -11,10 +11,14 @@
             "id": "ee33ff0f7ac72d8a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "portfolio/pages/home.html.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "home.html"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "portfolio/pages/home.html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for home.html"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "portfolio/pages/home.html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from home.html"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "portfolio/pages/home.html.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of home.html"
             }
           }
         ]
@@ -151,11 +159,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "ee33ff0f7ac72d8a",
   "lastOpenFiles": [
+    "portfolio/pages/home.html.md",
+    "portfolio/pages",
+    "portfolio/img/Austin Resume 19.pdf",
+    "portfolio/README.md",
+    "Welcome.md",
     "portfolio/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2",
     "portfolio/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff",
     "portfolio/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg",
@@ -166,9 +181,6 @@
     "portfolio/vendor/fontawesome-free/webfonts/fa-solid-900.woff",
     "portfolio/vendor/fontawesome-free/webfonts/fa-solid-900.ttf",
     "portfolio/vendor/fontawesome-free/webfonts/fa-solid-900.svg",
-    "portfolio/vendor/fontawesome-free/webfonts/fa-solid-900.eot",
-    "portfolio/vendor/fontawesome-free/webfonts/fa-regular-400.woff2",
-    "portfolio/vendor/fontawesome-free/webfonts/fa-regular-400.woff",
     "portfolio/vendor/fontawesome-free/webfonts/fa-regular-400.svg",
     "portfolio/vendor/fontawesome-free/webfonts/fa-brands-400.svg",
     "portfolio/img/tamagotchi-thumbnail.png",
@@ -176,8 +188,6 @@
     "portfolio/img/queerrexmockup.png",
     "portfolio/img/prof.JPG",
     "portfolio/img/inhershoes-thumbnail.png",
-    "portfolio/img/forest.jpg",
-    "portfolio/README.md",
-    "Welcome.md"
+    "portfolio/img/forest.jpg"
   ]
 }
