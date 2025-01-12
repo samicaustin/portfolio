@@ -144,13 +144,23 @@
               "icon": "lucide-list",
               "title": "Outline of home.html"
             }
+          },
+          {
+            "id": "c7d95cb2d2b117e6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +174,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "ee33ff0f7ac72d8a",
+  "active": "c7d95cb2d2b117e6",
   "lastOpenFiles": [
     "portfolio/pages/home.html.md",
     "portfolio/pages",
