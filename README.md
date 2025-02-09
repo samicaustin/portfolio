@@ -1,4 +1,8 @@
 # a coding log for my own sanity
+## february 9th: studio block used to continue development of site
+### code updates
+- created layout mvp!
+
 ## january 12th: studio block used to set this site up!
 ### host updates
 - purchased (ugh) SSL credentials for the domain
